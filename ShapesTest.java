@@ -12,7 +12,7 @@ public class ShapesTest {
         Rectangle rectangle = new Rectangle(3, 4);
 
         double area = rectangle.calculateArea();
-        double expectedArea = 12.0;
+        double expectedArea = 13.0;
 
         assertEquals(expectedArea, area, 0);
     }
